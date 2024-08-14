@@ -1,0 +1,62 @@
+.profileImage{
+  border-radius: 50%;
+  background-color:rgb(48, 47, 47);
+  margin-bottom: 15px;
+  width: 200px;
+  height: 200px;
+}
+.profileName{
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+  margin: 0;
+}
+.profileTagAndLocation{
+  font-size: 30px;
+  color: gray;
+  font-weight: 500;
+  margin: 0;
+}
+.profileList{
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  border-top: 2px solid gray;
+}
+.profileListItem:not(:last-child){
+  border-right: 2px solid rgb(92, 89, 89);
+  margin-right: 0;
+}
+.profileListItem{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc((100%)/2);
+  background-color: rgb(211, 210, 210);
+}
+.profileCard{
+  margin:0 auto;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border: 2px solid black;
+  width: 500px;
+  height: 503px;
+  border-radius: 2%;
+  overflow:hidden;
+  padding-top: 40px;
+  margin-bottom: 100px;
+}
+.textOfList{
+  font-size: 30px;
+  color: black;
+}
+.valueOfList{
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.profileTextCard{
+  margin-bottom: 30px;
+}

@@ -1,0 +1,38 @@
+.tableHeader{
+  color: white;
+  padding: 0;
+}
+
+.tableItem{
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+  font-weight: 500;
+  padding-bottom: 0;
+  padding-top: 0;
+  vertical-align: middle; 
+  height: 30px;
+}
+
+.tableItemType{
+  border-left: 1px solid black;
+  text-align: start;
+}
+
+
+.tableRowOfHeaders{
+  background-color:rgb(51, 49, 49);
+}
+table {
+  border-collapse: collapse; 
+  width: 100%; 
+}
+th,td{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.tableRow:nth-child(even){
+  background-color: rgb(197, 193, 193);
+
+}
+
